@@ -21,7 +21,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   //   price: 1500,
   //   product: 'prod_K5Yfvaf1koRL61',
   // })
-  // const products = await stripe.products.list()
+  const products = await stripe.products.list()
   // console.log(skus, products)
 
   return {
